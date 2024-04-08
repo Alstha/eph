@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+  body {
+    font-family: "Tilt Neon", sans-serif;
+
+    margin: 0;
+    padding: 0;
+    background: rgb(226, 244, 252);
+
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(226, 244, 252);
+    border: 2px solid rgb(0, 157, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(63, 140, 173);
+
+  }
+  form {
+    margin-top: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+  }
+  input[type="text"], input[type="email"], input[type="tel"], select, input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #679ed8;
+    color: #fff;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  input,select,textarea{
+    border: 1px solid rgb(70, 156, 156);
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  label::first-letter{
+    color: #2f75c0;
+  }
